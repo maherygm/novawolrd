@@ -1,0 +1,21 @@
+{
+    "navbar": {
+        "home": "Fandraisana",
+        "carte": "Sarintany",
+        "simulation": "Fampisehoana",
+        "school": "Sekoly",
+        "maladie": "Aretina",
+        "actu": "Vaovao",
+        "signIn": "Hiditra",
+        "dec": "Fanomzana lanja ny fako",
+        "mode": "Endrika maizina"
+    },
+
+    "banner": {
+        "Title": "Ny famoronana vaovao",
+        "Title1": "ho an'ny",
+        "Title2": "fahasalamanao",
+        "para1": "Amin'izao vanim-potoana izao izay miara-dalana ny fahasalamana sy ny teknolojia, dia mino ny famoronana vaovao izay mametraka ny olombelona ho ivon'ny fandrosoana izahay. Ny vahaolana maranitra atolotray dia mampiditra amim-pahendrena ny fivoarana farany mba hanomezana fitaovana mazava sy azo idirana",
+        "btn": "Hikaroka ny tontolonay"
+    }
+}

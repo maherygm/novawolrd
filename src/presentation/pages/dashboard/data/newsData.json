@@ -1,0 +1,38 @@
+[
+  {
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3lNM5uNjHoODUqLQr-3B91YexWbjlmfQYDg&s",
+    "title": "Epidemic Update: New Cases Reported",
+    "description": "Health authorities report a spike in new cases of the epidemic. More restrictions may follow.",
+    "date": "February 25, 2025"
+  },
+  {
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0uCyINhOjaFsNZXRcT16Tiod8XjDcxrbjeg&s",
+    "title": "Vaccine Distribution Accelerates",
+    "description": "The distribution of the new vaccine has been ramped up across the nation to curb the spread.",
+    "date": "February 26, 2025"
+  },
+  {
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfSkNRU0WG5rdr4Li4A7fSgYwEA0T3uSik_ktV5Yub4xktoxIO8-ge02p-jV0t2mR2ccs&usqp=CAU",
+    "title": "New Variant Detected",
+    "description": "A new variant of the virus has been detected, raising concerns among health experts.",
+    "date": "February 27, 2025"
+  },
+  {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/WHO_logo.svg/1200px-WHO_logo.svg.png",
+    "title": "Government Introduces New Guidelines",
+    "description": "The government has introduced new guidelines for public gatherings and travel.",
+    "date": "February 28, 2025"
+  },
+  {
+    "imageUrl": "https://www.worldvision.org/sites/default/files/styles/media_crop/public/2019-11/field%20hospital%20africa.jpg?itok=I6hxq-Rr",
+    "title": "Hospitals at Full Capacity",
+    "description": "Hospitals in the hardest-hit areas are operating at full capacity due to the rising number of cases.",
+    "date": "March 1, 2025"
+  },
+  {
+    "imageUrl": "https://www.vie-publique.fr/files/styles/twitter_image/public/dossier/coronavirus.jpg?itok=iwCpsAEC",
+    "title": "International Aid Arrives",
+    "description": "International aid organizations have begun sending supplies to support the local healthcare system.",
+    "date": "March 2, 2025"
+  }
+]

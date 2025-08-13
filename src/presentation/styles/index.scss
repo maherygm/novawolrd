@@ -1,0 +1,333 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Syne:wght@400..800&display=swap");
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+    font-family: Poppins, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    // cursor: url("../assets/image/illustrations/CURSOR.png"), auto;
+
+    &::selection {
+        background-color: #6685ab;
+        color: #fff;
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: #6685ab;
+        border-radius: 4px;
+        opacity: 0.1;
+        &:hover {
+            background-color: #336097;
+        }
+    }
+    &::-webkit-scrollbar-corner {
+        border-radius: 20px;
+    }
+    &::-webkit-scrollbar {
+        padding: 20px 0px;
+        background: rgba(128, 128, 128, 0.518);
+        width: 4px;
+        height: 4px;
+    }
+}
+
+.font-morganite {
+    font-family: morganite, "syne", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+// Image tests
+
+.bg-point-background {
+    background-image: url("../assets/image/abstract/point-background.webp");
+}
+
+.bg-card-background {
+    background-image: url("../assets/image/abstract/card-background.webp");
+}
+
+.bg-gradient-background {
+    background-image: url("../assets/image/abstract/GradientBack.png");
+    background-repeat: no-repeat;
+}
+
+.bg-backglass-background {
+    background-image: url("../assets/image/abstract/BackGlass1.png");
+    background-repeat: no-repeat;
+}
+
+.bg-backglass2-background {
+    background-image: url("../assets/image/abstract/BackGlass2.png");
+    background-repeat: no-repeat;
+}
+
+.bg-backglass3-background {
+    background-image: url("../assets/image/abstract/BackGlass3.png");
+    background-repeat: no-repeat;
+}
+
+
+
+.bg-blue-background {
+    background-image: url("../assets/image/abstract/blue-gradient-background.png");
+}
+
+.bg-line-background {
+    background-image: url("../assets/image/abstract/Lineback.webp");
+}
+
+.bg-spirale-background {
+    background-image: url("../assets/image/abstract/Line-Spirale.webp");
+    background-size: cover;
+}
+
+.bg-abstract-background {
+    background-image: url("../assets/image/abstract/abstractBack.png");
+    background-size: cover;
+}
+
+
+.bg-horizontal-line-background {
+    background-image: url("../assets/image/abstract/Line-Horizontal.png");
+    background-size: cover;
+}
+
+.dark .bg-point-background {
+    background-image: url("../assets/image/abstract/point-background-dark.webp");
+}
+
+.login-image {
+    // background-image: url(./presentation/assets/image/illustrations/Vector.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.sign-image2 {
+    background-image: url("../assets/image/illustrations/dashimage.jpg");
+    background-size: cover;
+}
+
+.sign-image {
+    background-image: url("../assets/image/illustrations/virus1.jpg");
+    background-size: cover;
+}
+
+.welcome-banner {
+    background-image: url("../assets/image/illustrations/dashimage.jpg");
+    background-size: cover;
+}
+
+.imageBanner1 {
+    background-image: url("../assets/image/illustrations/virus2.jpg");
+    background-size: 700px;
+    background-position: center;
+    transition: 0.3s all ease-in-out;
+
+    &:hover {
+        background-size: 800px;
+    }
+}
+
+.bg-about {
+    background-image: url("../assets/image/illustrations/bbn.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.img-about1 {
+    width: 80px;
+    height: 80px;
+}
+
+.img-about2 {
+    width: 120px;
+    height: 130px;
+}
+
+.imageBanner2 {
+    background-image: url("../assets/image/illustrations/virus1.jpg");
+    background-size: 400px;
+    background-position: center;
+    transition: 0.3s all ease-in-out;
+
+    &:hover {
+        background-size: 500px;
+    }
+}
+
+.imageBanner3 {
+    background-image: url("../assets/image/illustrations/dashimage.jpg");
+    background-size: 400px;
+    background-position: center;
+    transition: 0.3s all ease-in-out;
+
+    &:hover {
+        background-size: 500px;
+    }
+}
+
+.BotImage {
+    width: 260px;
+    height: 260px;
+    position: relative;
+    top: -40px;
+    right: -40px;
+}
+
+.box-loader {
+    display: inline-block;
+    height: 200px;
+    width: 33.3%;
+    float: left;
+    position: relative;
+    /*margin:0 -4px -5px -2px;*/
+    transition: all 0.2s ease;
+
+    p {
+        color: #777;
+        font-family: Lato, "Helvetica Neue";
+        font-weight: 300;
+        position: absolute;
+        font-size: 20px;
+        width: 100%;
+        height: 25px;
+        text-align: center;
+        bottom: 0px;
+        margin: 0;
+        top: 160px;
+        background-color: #fff;
+        opacity: 0;
+        text-transform: uppercase;
+        transition: all 0.2s ease;
+    }
+}
+
+/* -------------- loader2 -------------- */
+
+.loader2 {
+    position: relative;
+    width: 5px;
+    height: 5px;
+
+    top: 49%;
+    top: -webkit-calc(50% - 43px);
+    top: calc(50% - 2.5px);
+    left: 49%;
+    left: -webkit-calc(50% - 43px);
+    left: calc(50% - 2.5px);
+
+    background-color: #8506d4;
+    border-radius: 50px;
+}
+
+.loader2:before {
+    content: "";
+    position: absolute;
+    top: -38px;
+    border-top: 3px solid #8506d4;
+    border-right: 3px solid #8506d4;
+    border-radius: 0 50px 0px 0;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(249, 29, 216, 0.1);
+    -webkit-transform-origin: 0% 100%;
+    transform-origin: 0% 100%;
+    -webkit-animation: loader2 1.5s linear infinite;
+    animation: loader2 1.5s linear infinite;
+}
+
+.loader2:after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    border-bottom: 3px solid #8506d4;
+    border-left: 3px solid #8506d4;
+    border-radius: 0 0px 0px 50px;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(249, 29, 216, 0.1);
+    -webkit-transform-origin: 100% 0%;
+    transform-origin: 100% 0%;
+    -webkit-animation: loader2 1.5s linear infinite;
+    animation: loader2 1.5s linear infinite;
+}
+
+.bg-problem1 {
+    background-image: url("../assets/image/illustrations/imgProblem.jpg");
+    background-size: cover;
+}
+
+.bg-problem2 {
+    background-image: url("../assets/image/illustrations/imgProblem3.jpg");
+    background-size: cover;
+}
+
+.bg-problem3 {
+    background-image: url("../assets/image/illustrations/imgProblem2.jpg");
+    background-size: cover;
+}
+
+.bg-problem4 {
+    background-image: url("../assets/image/illustrations/imgProblem.jpg");
+    background-size: cover;
+}
+
+@-webkit-keyframes loader2 {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes loader2 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.card-problem {
+    cursor: url("../assets/image/illustrations/output-onlinegiftools.gif"), auto;
+}
+
+.card-problem {
+    background-image: url("../assets/image/illustrations/BackProblem.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-solution {
+    background-image: url("../assets/image/illustrations/BackSolution.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.problem {
+    &:hover {
+        animation: float-vertical 3s infinite ease-in-out;
+    }
+}
+
+.solution-img {
+    width: 200px;
+    height: 200px;
+}
+
+.donation {
+    background-image: url("../assets/image/illustrations/donation.jpg");
+    background-size: cover;
+    background-position: center;
+}

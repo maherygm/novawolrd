@@ -1,0 +1,72 @@
+.ConnectionStatus {
+	position: fixed;
+	bottom: 0;
+	right: 20px;
+	width: 400px;
+	margin: 20px auto;
+	padding: 20px 28px 20px 28px;
+	z-index: 999;
+	border-radius: 15px;
+	text-align: left;
+	transition: opacity 0.3s ease;
+	animation: swipeUp 1s ease-in-out;
+
+	.img-no-connection {
+		position: absolute;
+		bottom: 80px;
+		right: -40px;
+	}
+
+	.img-connection {
+		position: absolute;
+		bottom: 38px;
+		right: -0px;
+	}
+
+	a {
+		background-color: #a7bbd1;
+		font-size: 11px;
+		padding: 4px 6px;
+	}
+}
+
+.ConnectionStatus h1 {
+	font-size: 23px;
+	font-weight: bold;
+}
+
+.ConnectionStatus p {
+	font-size: 13px;
+	text-align: justify;
+}
+
+.online {
+	background-color: #27ad32;
+	color: white;
+}
+
+.ConnectionStatus.offline {
+	background-color: rgb(233, 165, 165);
+	backdrop-filter: blur(10px);
+	/* border: 5px solid rgba(241, 210, 204, 0.344); */
+	color: #333;
+}
+
+.close-button {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+	font-size: 16px;
+	color: #333;
+}
+
+.close-button:hover {
+	color: #f00;
+}
+
+@media screen and (max-width: 770px) {
+	.ConnectionStatus {
+		width: 90%;
+	}
+}

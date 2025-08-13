@@ -1,0 +1,45 @@
+[
+    {
+      "epidemic": "COVID-19",
+      "region": "Antananarivo",
+      "areaCovered": "1000 km²",
+      "status": "red",
+      "notificationDate": "March 1, 2025"
+    },
+    {
+      "epidemic": "Dengue",
+      "region": "Toamasina",
+      "areaCovered": "500 km²",
+      "status": "green",
+      "notificationDate": "March 2, 2025"
+    },
+    {
+      "epidemic": "Malaria",
+      "region": "Fianarantsoa",
+      "areaCovered": "750 km²",
+      "status": "blue",
+      "notificationDate": "March 3, 2025"
+    },
+    {
+      "epidemic": "COVID-19",
+      "region": "Antananarivo",
+      "areaCovered": "1000 km²",
+      "status": "red",
+      "notificationDate": "March 1, 2025"
+    },
+    {
+      "epidemic": "Dengue",
+      "region": "Toamasina",
+      "areaCovered": "500 km²",
+      "status": "green",
+      "notificationDate": "March 2, 2025"
+    },
+    {
+      "epidemic": "Malaria",
+      "region": "Fianarantsoa",
+      "areaCovered": "750 km²",
+      "status": "blue",
+      "notificationDate": "March 3, 2025"
+    }
+  ]
+  

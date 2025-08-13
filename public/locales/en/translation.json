@@ -1,0 +1,21 @@
+{
+    "navbar": {
+        "home": "Home",
+        "carte": "Map",
+        "simulation": "Simulation",
+        "school": "School",
+        "maladie": "Disease",
+        "actu": "News",
+        "signIn": "Sign In",
+        "dec": "Waste Recovery",
+        "mode": "Dark Mode"
+    },
+
+    "banner": {
+        "Title": "Innovation",
+        "Title1": "at the service",
+        "Title2": "of your health",
+        "para1": "In an era where health and technology converge, we believe in innovation that puts humans at the heart of progress. Our intelligent solutions smartly integrate the latest advances to offer precise, accessible tools",
+        "btn": "Explore our world"
+    }
+}

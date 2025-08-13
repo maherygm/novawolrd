@@ -1,0 +1,21 @@
+{
+    "navbar": {
+        "home": "Accueil",
+        "carte": "Carte",
+        "simulation": "simulation",
+        "school": "Ecole",
+        "maladie": "madalie",
+        "actu": "actualités",
+        "signIn": "Se connecter",
+        "dec": "Valorisation des déchets",
+        "mode": "Mode sombre"
+    },
+
+    "banner": {
+        "Title": "L'innovation",
+        "Title1": "au service",
+        "Title2": "de votre santé",
+        "para1": "À l’ère où santé et technologie convergent, nous croyons en une innovation qui place l’humain au cœur du progrès. Nos solutions intelligentes intègrent intelligemment les dernières avancées pour offrir des outils précis, accessibles",
+        "btn": "Explorez-notre monre"
+    }
+}

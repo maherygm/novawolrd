@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Alice",
+      "lastName": "Dupont",
+      "email": "alice.dupont@example.com",
+      "address": {
+        "street": "123 Rue de Paris",
+        "city": "Paris",
+        "postalCode": "75001"
+      },
+      "phone": "+33123456789"
+    },
+    {
+      "id": 2,
+      "firstName": "Bob",
+      "lastName": "Martin",
+      "email": "bob.martin@example.com",
+      "address": {
+        "street": "456 Avenue de Lyon",
+        "city": "Lyon",
+        "postalCode": "69000"
+      },
+      "phone": "+33456789012"
+    },
+    {
+      "id": 3,
+      "firstName": "Charlie",
+      "lastName": "Durand",
+      "email": "charlie.durand@example.com",
+      "address": {
+        "street": "789 Boulevard de Nice",
+        "city": "Nice",
+        "postalCode": "06000"
+      },
+      "phone": "+33412345678"
+    }
+  ]
+}

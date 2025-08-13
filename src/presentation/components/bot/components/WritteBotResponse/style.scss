@@ -1,0 +1,45 @@
+.writte-response {
+    position: fixed;
+    display: flex;
+    font-size: 1.2rem;
+    top: 5%;
+    left : 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    color: #333;
+
+    p {
+        display: inline-block;
+        overflow-wrap: break-word;
+        margin: 0;
+    }
+
+    .cursor {
+        display: inline-block;
+        margin-left: 5px;
+        animation: blink 1s step-end infinite;
+    }
+
+    .letter {
+        display: inline-block;
+        opacity: 0;
+        transform: scale(0.8);
+        filter: blur(4px);
+        transition: opacity 0.2s ease, transform 0.2s ease, filter 0.2s ease;
+    }
+
+    .letter.visible {
+        opacity: 1;
+        transform: scale(1);
+        filter: blur(0);
+    }
+
+    @keyframes blink {
+        0%, 100% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
+    }
+}
